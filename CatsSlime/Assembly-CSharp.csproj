@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{45029160-E305-B7AB-5712-03CCB4133632}</ProjectGuid>
+    <ProjectGuid>{FEAB76AF-F90F-95A3-7E97-AB3BF3BE4998}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -71,6 +71,9 @@
     <Compile Include="Assets\Script\Colisao.cs" />
     <Compile Include="Assets\Script\Botao3.cs" />
     <Compile Include="Assets\Script\Botao4.cs" />
+    <Compile Include="Assets\Script\PlayerMoviment.cs" />
+    <Compile Include="Assets\Ground.cs" />
+    <Compile Include="Assets\Script\GroundChek.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
