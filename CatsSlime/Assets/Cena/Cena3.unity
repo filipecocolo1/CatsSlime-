@@ -300,12 +300,12 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 618395817}
     - target: {fileID: 114007107059232902, guid: cc40913e0f76bd248a3480f2b7672c15,
         type: 3}
       propertyPath: player2
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1684119786}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc40913e0f76bd248a3480f2b7672c15, type: 3}
 --- !u!1 &114767574
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   porta: {fileID: 1490120524}
-  player: {fileID: 0}
+  player: {fileID: 618395817}
   caixa: {fileID: 0}
   recuoPressionar: 0.5
   posicaoOriginal: {x: 0, y: 0, z: 0}
@@ -2180,12 +2180,12 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 618395817}
     - target: {fileID: 114007107059232902, guid: cc40913e0f76bd248a3480f2b7672c15,
         type: 3}
       propertyPath: player2
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1684119786}
     - target: {fileID: 114066954608541524, guid: cc40913e0f76bd248a3480f2b7672c15,
         type: 3}
       propertyPath: porta
@@ -3517,23 +3517,53 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7867582938433123345, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.14391246
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867582938433123345, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15124986
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867582938433123345, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.39
+      value: -3.608
       objectReference: {fileID: 0}
     - target: {fileID: 7867582938433123345, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.5
+      value: 4.298
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867582938433123350, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867582939027958752, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867582939027958755, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.18371928
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867582939027958755, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.20569527
       objectReference: {fileID: 0}
     - target: {fileID: 7867582939027958755, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.06
+      value: -16.318
       objectReference: {fileID: 0}
     - target: {fileID: 7867582939027958755, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.32
+      value: 4.1299
       objectReference: {fileID: 0}
     - target: {fileID: 7867582940236463390, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
@@ -3826,9 +3856,9 @@ GameObject:
   - component: {fileID: 1490120525}
   - component: {fileID: 1490120527}
   - component: {fileID: 1490120526}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LaserBlue1 (2)
-  m_TagString: Chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4389,7 +4419,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 20
+  m_Mass: 15
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
