@@ -8,20 +8,40 @@ public class PlayerMoviment : MonoBehaviour
     public float jumpForce;
     private Rigidbody2D rig;
     public bool isJump;
-    
+    public GameObject player;
+    public GameObject player2;
+    public Animator animator;
+    public SpriteRenderer mySpriteRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        Move();
-        Jump();
-        MovePlayer2();
+
+        if (player == true)
+        {
+            Move();
+            Jump();
+        }
+
+
+        if (player2 == true)
+        {
+            Move2();
+            Jump2();
+        }
+
+      
+
+
+
 
 
     }
@@ -32,49 +52,102 @@ public class PlayerMoviment : MonoBehaviour
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         transform.position += movement * Time.deltaTime * speed;
 
-
+        animator.SetBool("taCorrendo", false);
         float inputAxis = Input.GetAxis("Horizontal");
 
-        if (inputAxis < 0) {
+        if (inputAxis < 0)
+        {
             transform.eulerAngles = new Vector2(0f, 0f);
+
+            animator.SetBool("taCorrendo", true);
+
         }
         if (inputAxis > 0)
         {
             transform.eulerAngles = new Vector2(0f, 180f);
+            animator.SetBool("taCorrendo", true);
+
+
         }
+
+
+
+      
+           
+
+
+
 
 
     }
     void Jump()
     {
 
-        if (Input.GetButtonDown("Jump")&& !isJump)
+        if (Input.GetButtonDown("Jump") && !isJump)
         {
             rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
 
 
-    }
 
-    void MovePlayer2()
+
+
+
+
+
+
+    }
+    void Move2()
     {
 
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal1"), 0f, 0f);
+        Vector3 movement = new Vector3(Input.GetAxis("Horizontal2"), 0f, 0f);
         transform.position += movement * Time.deltaTime * speed;
+        animator.SetBool("taCorrendo2", false);
 
 
-        float inputAxis = Input.GetAxis("Horizontal1");
+
+        float inputAxis = Input.GetAxis("Horizontal2");
 
         if (inputAxis < 0)
         {
             transform.eulerAngles = new Vector2(0f, 0f);
+            animator.SetBool("taCorrendo2", true);
+
+
         }
         if (inputAxis > 0)
         {
             transform.eulerAngles = new Vector2(0f, 180f);
+            animator.SetBool("taCorrendo2", true);
         }
 
 
+    }
+
+    void Jump2()
+    {
+
+        if ((Input.GetKeyUp(KeyCode.J) && !isJump))
+        {
+            rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+        }
+
+
+
+
+
+
+
+
+    }
+
+    void OnTriggerEnter2D(Collider2D outro)
+    {
+        if (outro.gameObject.tag == "Finish")
+        {
+            Destroy(this.gameObject);
+
+        }
     }
 
 }

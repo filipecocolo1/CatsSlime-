@@ -3,8 +3,9 @@
 --- !u!74 &7400000
 AnimationClip:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Andando1
   serializedVersion: 6
   m_Legacy: 0
@@ -27,16 +28,14 @@ AnimationClip:
     - time: 0.25
       value: {fileID: 21300000, guid: aa73b2cde70dade4ba2fe8554371b184, type: 3}
     - time: 0.33333334
-      value: {fileID: 21300000, guid: aa73b2cde70dade4ba2fe8554371b184, type: 3}
-    - time: 0.41666666
       value: {fileID: 21300000, guid: aa55456213fd9f942b900f44793962af, type: 3}
-    - time: 0.5
+    - time: 0.41666666
       value: {fileID: 21300000, guid: c5aa48282d9c976478b9698e9e695f4b, type: 3}
-    - time: 0.5833333
+    - time: 0.5
       value: {fileID: 21300000, guid: 2f0522c75312bc04a9931a2616270ba5, type: 3}
-    - time: 0.6666667
+    - time: 0.5833333
       value: {fileID: 21300000, guid: 6785d3fa75f69f94dbf74e359249c8c7, type: 3}
-    - time: 0.75
+    - time: 0.6666667
       value: {fileID: 21300000, guid: 105d0825e8ecb15489744a7b6f92f0d8, type: 3}
     attribute: m_Sprite
     path: 
@@ -61,7 +60,6 @@ AnimationClip:
     - {fileID: 21300000, guid: 96e6a0dfddff5204bbc45d14506630d7, type: 3}
     - {fileID: 21300000, guid: 45a019cb8b0c5844b8638be490932fc0, type: 3}
     - {fileID: 21300000, guid: aa73b2cde70dade4ba2fe8554371b184, type: 3}
-    - {fileID: 21300000, guid: aa73b2cde70dade4ba2fe8554371b184, type: 3}
     - {fileID: 21300000, guid: aa55456213fd9f942b900f44793962af, type: 3}
     - {fileID: 21300000, guid: c5aa48282d9c976478b9698e9e695f4b, type: 3}
     - {fileID: 21300000, guid: 2f0522c75312bc04a9931a2616270ba5, type: 3}
@@ -72,7 +70,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8333333
+    m_StopTime: 0.75
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -91,5 +89,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_GenerateMotionCurves: 0
   m_Events: []
