@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 9204710}
   - component: {fileID: 9204709}
   - component: {fileID: 9204708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Chao
   m_Icon: {fileID: 0}
@@ -697,7 +697,7 @@ GameObject:
   - component: {fileID: 182159513}
   - component: {fileID: 182159512}
   - component: {fileID: 182159511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground (1)
   m_TagString: Chao
   m_Icon: {fileID: 0}
@@ -1297,6 +1297,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7867582938433123345, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867582938433123345, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.59
+      objectReference: {fileID: 0}
     - target: {fileID: 7867582939027958755, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1380,7 +1390,7 @@ GameObject:
   - component: {fileID: 427499855}
   - component: {fileID: 427499856}
   - component: {fileID: 427499857}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: box
   m_TagString: Chao
   m_Icon: {fileID: 0}
@@ -2404,8 +2414,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jogadores:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1706881244}
+  - {fileID: 2019396812}
 --- !u!82 &1095584931
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2873,7 +2883,7 @@ GameObject:
   - component: {fileID: 1448281221}
   - component: {fileID: 1448281223}
   - component: {fileID: 1448281222}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground2
   m_TagString: Chao
   m_Icon: {fileID: 0}
@@ -3280,7 +3290,7 @@ GameObject:
   - component: {fileID: 1742386903}
   - component: {fileID: 1742386902}
   - component: {fileID: 1742386904}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: esteirab
   m_TagString: Chao
   m_Icon: {fileID: 0}
@@ -3498,7 +3508,7 @@ GameObject:
   - component: {fileID: 1754443741}
   - component: {fileID: 1754443740}
   - component: {fileID: 1754443739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ' Laser 4 '
   m_TagString: Finish
   m_Icon: {fileID: 0}
