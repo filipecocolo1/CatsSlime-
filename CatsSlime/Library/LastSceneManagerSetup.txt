@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Cena/Cena4.unity
+- path: Assets/Cena/ProximaFaseA.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

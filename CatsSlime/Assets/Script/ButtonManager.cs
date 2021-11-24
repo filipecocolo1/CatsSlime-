@@ -3,44 +3,58 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ButtonManager : MonoBehaviour {
+public class ButtonManager : MonoBehaviour
+{
 
-    public void JogarButton (string CenaJogo)
+    public void JogarButton()
     {
 
-        SceneManager.LoadScene(CenaJogo);
+        SceneManager.LoadScene("Cena1");
     }
-    public void ControlesButton (string CenaControle)
+    public void ControlesButton()
     {
-        SceneManager.LoadScene(CenaControle);
-    }
-
-    public void SobreButton(string CenaSobre)
-    {
-        SceneManager.LoadScene(CenaSobre);
+        SceneManager.LoadScene("Controles");
     }
 
-    public void VoltarButton (string MenuCena)
+    public void SobreButton()
     {
-        SceneManager.LoadScene(MenuCena);
+        SceneManager.LoadScene("Sobre");
     }
 
-    public void SimButton(string CenaJogo)
+    public void VoltarButton()
     {
-        SceneManager.LoadScene(CenaJogo);
+        SceneManager.LoadScene("Menu");
     }
 
-    public void NaoButton(string MenuCena)
+  
+
+    public void NaoButton()
     {
-        SceneManager.LoadScene(MenuCena);
-    } 
+        SceneManager.LoadScene("Menu");
+    }
 
     public void SairButton()
     {
         Application.Quit();
     }
 
-        
+    public void Fase2()
+    {
+        SceneManager.LoadScene("Cena2");
+    }
+    public void Fase3()
+    {
+        SceneManager.LoadScene("Cena3");
+
+
+
+    }
+
+
+    public void Fase4()
+    {
+        SceneManager.LoadScene("Cena4");
+    }
 }
     // Use this for initialization
 

@@ -2049,8 +2049,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7717976cabab84ca4b411f67ea5cd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caixa: {fileID: 0}
-  player: {fileID: 0}
+  caixa: {fileID: 1825379418}
+  player: {fileID: 590812407}
   laser: {fileID: 1581085814}
 --- !u!1 &687599624
 GameObject:
@@ -2284,7 +2284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   porta: {fileID: 904150070}
-  player: {fileID: 0}
+  player: {fileID: 590812407}
 --- !u!1 &705413753
 GameObject:
   m_ObjectHideFlags: 0
@@ -3894,12 +3894,12 @@ PrefabInstance:
     - target: {fileID: 7867582938433123345, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.1564
+      value: -20.39
       objectReference: {fileID: 0}
     - target: {fileID: 7867582938433123345, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.2505
+      value: -3.75
       objectReference: {fileID: 0}
     - target: {fileID: 7867582939027958755, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
@@ -3914,12 +3914,12 @@ PrefabInstance:
     - target: {fileID: 7867582939027958755, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11
+      value: -2.31
       objectReference: {fileID: 0}
     - target: {fileID: 7867582939027958755, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.24
+      value: -3.89
       objectReference: {fileID: 0}
     - target: {fileID: 7867582940236463390, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
@@ -3934,12 +3934,12 @@ PrefabInstance:
     - target: {fileID: 7867582940236463391, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.9743804
+      value: 11.26
       objectReference: {fileID: 0}
     - target: {fileID: 7867582940236463391, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.09230131
+      value: -0.29
       objectReference: {fileID: 0}
     - target: {fileID: 7867582940236463391, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
@@ -5126,7 +5126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   porta: {fileID: 434986498}
-  player: {fileID: 0}
+  player: {fileID: 2094237225}
   caixa: {fileID: 0}
   recuoPressionar: 0.1
   posicaoOriginal: {x: 0, y: 0, z: 0}

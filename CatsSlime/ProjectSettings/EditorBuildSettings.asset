@@ -6,32 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Cena/Menu.unity
-    guid: 59748ed77b3fdb14385d0b9189afa8bc
-  - enabled: 1
-    path: Assets/Cena/Controles.unity
-    guid: 6c173588563afd44d9dc0c049a33e5d7
-  - enabled: 1
     path: Assets/Cena/Cena1.unity
     guid: ba5ca08f922712b4e8fdb49b54e083aa
   - enabled: 1
-    path: Assets/Cena/ProximaFaseA.unity
-    guid: 1d27f5429f1bdbe4c992a00f99b1920e
-  - enabled: 1
-    path: Assets/Cena/Sobre.unity
-    guid: 769171bbf1327b74da11408b4bcca021
-  - enabled: 1
     path: Assets/Cena/Cena2b.unity
-    guid: 8d28fa3a3c519284da5e17841c3ce9d6
-  - enabled: 1
-    path: Assets/Cena/ProximaFaseB.unity
-    guid: 944a8e2eef28a924f8a7e23588e204a3
+    guid: 8f419e797623044419ab7292f57d17a9
   - enabled: 1
     path: Assets/Cena/Cena3.unity
     guid: bc1e9cc5aba2a2047b81c26741efc539
   - enabled: 1
+    path: Assets/Cena/Cena4.unity
+    guid: 34ac2d363ef8a1748a62a626368de0a4
+  - enabled: 1
+    path: Assets/Cena/Controles.unity
+    guid: 6c173588563afd44d9dc0c049a33e5d7
+  - enabled: 1
+    path: Assets/Cena/Menu.unity
+    guid: 59748ed77b3fdb14385d0b9189afa8bc
+  - enabled: 1
+    path: Assets/Cena/ProximaFaseA.unity
+    guid: 1d27f5429f1bdbe4c992a00f99b1920e
+  - enabled: 1
+    path: Assets/Cena/ProximaFaseB.unity
+    guid: 944a8e2eef28a924f8a7e23588e204a3
+  - enabled: 1
     path: Assets/Cena/ProximaFaseC.unity
     guid: 148555f953d80b94a84672f896797318
   - enabled: 1
-    path: Assets/Cena/Cena4.unity
-    guid: 34ac2d363ef8a1748a62a626368de0a4
+    path: Assets/Cena/Sobre.unity
+    guid: 769171bbf1327b74da11408b4bcca021
+  m_configObjects: {}
