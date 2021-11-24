@@ -9,34 +9,62 @@ public class Botao: MonoBehaviour {
 	public GameObject caixa;
 	public float recuoPressionar= 0.1f;
 	public Vector3 posicaoOriginal;
+    public Animator animatorB;
 
     //lembra de colocar rigibody e colocar o collider como trigger
+    private void Update()
+    {
+        animatorB= GetComponent<Animator>();
     
-	void Awake () {
+    
+    }
+    void Awake () {
 		posicaoOriginal = transform.position;
 	}
 	
 	// Update is called once per frame
 	void OnTriggerEnter2D(Collider2D other) {
 
-		if (player!= null && other.gameObject.tag == player.gameObject.tag){ //coloca a tag player1 no player1
 
-			if (porta != null) {
-			
-			
-				porta.gameObject.SetActive (false);
-			}
-			if (caixa != null) {
+    
+    
+        if (player!= null && other.gameObject.tag == player.gameObject.tag){ //coloca a tag player1 no player1
+            animatorB.SetBool("emCimabotao", true);
 
-				caixa.gameObject.SetActive (false);
-			}
-		}
-	}
-	void OnTriggerExit2D(Collider2D other) {
+            if (porta != null) {
 
-		if (player!= null && other.gameObject.tag == player.gameObject.tag){ //coloca a tag player1 no player1
+            
 
-			if (porta != null) {
+                porta.gameObject.SetActive (false);
+
+            
+
+            }
+
+        
+
+
+            if (caixa != null) {
+        
+                caixa.gameObject.SetActive (false);
+
+
+
+            }
+        
+
+        }
+      
+
+    }
+
+        void OnTriggerExit2D(Collider2D other) {
+
+     
+        if (player!= null && other.gameObject.tag == player.gameObject.tag){ //coloca a tag player1 no player1
+
+            animatorB.SetBool("emCimabotao", false);
+            if (porta != null) {
 
 				porta.gameObject.SetActive (true);
                 transform.position = posicaoOriginal;

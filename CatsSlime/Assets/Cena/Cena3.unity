@@ -321,6 +321,7 @@ GameObject:
   - component: {fileID: 114767577}
   - component: {fileID: 114767576}
   - component: {fileID: 114767575}
+  - component: {fileID: 114767580}
   m_Layer: 6
   m_Name: Button4
   m_TagString: Chao
@@ -345,6 +346,7 @@ MonoBehaviour:
   caixa: {fileID: 0}
   recuoPressionar: 0.5
   posicaoOriginal: {x: 0, y: 0, z: 0}
+  animatorB: {fileID: 0}
 --- !u!61 &114767576
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -388,6 +390,7 @@ MonoBehaviour:
   caixa: {fileID: 0}
   recuoPressionar: 0.05
   posicaoOriginal: {x: 0, y: 0, z: 0}
+  animatorB: {fileID: 0}
 --- !u!212 &114767578
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -453,6 +456,25 @@ Transform:
   m_Father: {fileID: 1701201035}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &114767580
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114767574}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &140703383
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,6 +809,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &269320203 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1060165301932980, guid: cc40913e0f76bd248a3480f2b7672c15,
+    type: 3}
+  m_PrefabInstance: {fileID: 916071591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &269320204
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269320203}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &282195828
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,6 +1925,7 @@ GameObject:
   - component: {fileID: 758984589}
   - component: {fileID: 758984588}
   - component: {fileID: 758984587}
+  - component: {fileID: 758984591}
   m_Layer: 6
   m_Name: Button4 (1)
   m_TagString: Chao
@@ -1916,6 +1964,7 @@ MonoBehaviour:
   caixa: {fileID: 0}
   recuoPressionar: 0.5
   posicaoOriginal: {x: 0, y: 0, z: 0}
+  animatorB: {fileID: 0}
 --- !u!61 &758984588
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1959,6 +2008,7 @@ MonoBehaviour:
   caixa: {fileID: 0}
   recuoPressionar: 0.05
   posicaoOriginal: {x: 0, y: 0, z: 0}
+  animatorB: {fileID: 0}
 --- !u!212 &758984590
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2010,6 +2060,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &758984591
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758984585}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &865254158
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,6 +2302,7 @@ GameObject:
   - component: {fileID: 1012198771}
   - component: {fileID: 1012198769}
   - component: {fileID: 1012198768}
+  - component: {fileID: 1012198770}
   m_Layer: 6
   m_Name: 'Button2 '
   m_TagString: Chao
@@ -2257,6 +2327,7 @@ MonoBehaviour:
   caixa: {fileID: 282195828}
   recuoPressionar: 0.05
   posicaoOriginal: {x: 0, y: 0, z: 0}
+  animatorB: {fileID: 0}
 --- !u!61 &1012198769
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2283,6 +2354,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.3394642, y: 2.406023}
   m_EdgeRadius: 0
+--- !u!95 &1012198770
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012198767}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1012198771
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4097,6 +4187,7 @@ GameObject:
   - component: {fileID: 1547633704}
   - component: {fileID: 1547633702}
   - component: {fileID: 1547633701}
+  - component: {fileID: 1547633703}
   m_Layer: 0
   m_Name: 'Button3 '
   m_TagString: Chao
@@ -4121,6 +4212,7 @@ MonoBehaviour:
   caixa: {fileID: 0}
   recuoPressionar: 0.05
   posicaoOriginal: {x: 0, y: 0, z: 0}
+  animatorB: {fileID: 0}
 --- !u!61 &1547633702
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4147,6 +4239,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.46, y: 2.76}
   m_EdgeRadius: 0
+--- !u!95 &1547633703
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547633700}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1547633704
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4212,6 +4323,31 @@ Transform:
   m_Father: {fileID: 1701201035}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!1 &1642081531 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1060165301932980, guid: cc40913e0f76bd248a3480f2b7672c15,
+    type: 3}
+  m_PrefabInstance: {fileID: 15370429}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1642081532
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642081531}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1684119786 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7867582938433123348, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
@@ -5050,6 +5186,7 @@ GameObject:
   - component: {fileID: 2012884030}
   - component: {fileID: 2012884032}
   - component: {fileID: 2012884033}
+  - component: {fileID: 2012884034}
   m_Layer: 6
   m_Name: Button1
   m_TagString: Chao
@@ -5139,6 +5276,7 @@ MonoBehaviour:
   caixa: {fileID: 0}
   recuoPressionar: 0.05
   posicaoOriginal: {x: 0, y: 0, z: 0}
+  animatorB: {fileID: 0}
 --- !u!61 &2012884033
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5165,6 +5303,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.9579725, y: 2.1324654}
   m_EdgeRadius: 0
+--- !u!95 &2012884034
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012884029}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2043350106
 GameObject:
   m_ObjectHideFlags: 0
