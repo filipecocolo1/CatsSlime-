@@ -37,13 +37,6 @@ public class PlayerMoviment : MonoBehaviour
             Move2();
             Jump2();
         }
-
-      
-
-
-
-
-
     }
 
     void Move()
@@ -60,25 +53,12 @@ public class PlayerMoviment : MonoBehaviour
             transform.eulerAngles = new Vector2(0f, 0f);
 
             animator.SetBool("taCorrendo", true);
-
         }
         if (inputAxis > 0)
         {
             transform.eulerAngles = new Vector2(0f, 180f);
             animator.SetBool("taCorrendo", true);
-
-
         }
-
-
-
-      
-           
-
-
-
-
-
     }
     void Jump()
     {
@@ -87,14 +67,6 @@ public class PlayerMoviment : MonoBehaviour
         {
             rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
-
-
-
-
-
-
-
-
 
     }
     void Move2()
@@ -105,14 +77,12 @@ public class PlayerMoviment : MonoBehaviour
         animator.SetBool("taCorrendo2", false);
 
 
-
         float inputAxis = Input.GetAxis("Horizontal2");
 
         if (inputAxis < 0)
         {
             transform.eulerAngles = new Vector2(0f, 0f);
             animator.SetBool("taCorrendo2", true);
-
 
         }
         if (inputAxis > 0)
@@ -133,12 +103,6 @@ public class PlayerMoviment : MonoBehaviour
         }
 
 
-
-
-
-
-
-
     }
 
     void OnTriggerEnter2D(Collider2D outro)
@@ -148,6 +112,26 @@ public class PlayerMoviment : MonoBehaviour
             Destroy(this.gameObject);
 
         }
-    }
 
+      
+      
+       
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "KillBlue")
+        {
+            Destroy(player2.gameObject);
+
+        }
+        if (collision.gameObject.tag == "KillOrange")
+        {
+            Destroy(player2.gameObject);
+
+        }
+
+
+    }
 }
+
+

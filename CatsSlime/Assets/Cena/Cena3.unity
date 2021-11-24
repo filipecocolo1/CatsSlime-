@@ -560,13 +560,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147468417}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 13.78, y: -3.57, z: 0}
+  m_LocalRotation: {x: 0.99999994, y: 0.00041256286, z: -0, w: 0}
+  m_LocalPosition: {x: 13.779997, y: -3.5700002, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1.7021091}
   m_Children: []
   m_Father: {fileID: 1730783937}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 359.953}
 --- !u!212 &147468419
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1636,7 +1636,7 @@ GameObject:
   - component: {fileID: 686355824}
   - component: {fileID: 686355823}
   - component: {fileID: 686355822}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: laserEmiter2 (2)
   m_TagString: Chao
   m_Icon: {fileID: 0}
@@ -1745,6 +1745,7 @@ GameObject:
   - component: {fileID: 704536299}
   - component: {fileID: 704536298}
   - component: {fileID: 704536297}
+  - component: {fileID: 704536300}
   m_Layer: 6
   m_Name: boxglades
   m_TagString: KillBlue
@@ -1836,13 +1837,34 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704536296}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.1695302, y: -3.5125394, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0.00005235104}
+  m_LocalPosition: {x: 3.1695302, y: -3.5125399, z: 0}
   m_LocalScale: {x: 0.66208017, y: 0.65408677, z: 0.658976}
   m_Children: []
   m_Father: {fileID: 1730783937}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.006}
+--- !u!50 &704536300
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704536296}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &758984585
 GameObject:
   m_ObjectHideFlags: 0
@@ -3543,7 +3565,7 @@ PrefabInstance:
     - target: {fileID: 7867582939027958752, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7867582939027958755, guid: 0c2ab35a3c64d3345a4cedfa81250a0e,
         type: 3}
@@ -4419,7 +4441,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 15
+  m_Mass: 4
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -5394,7 +5416,7 @@ GameObject:
   - component: {fileID: 2107994773}
   - component: {fileID: 2107994772}
   - component: {fileID: 2107994771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: laserEmiter2 (1)
   m_TagString: Chao
   m_Icon: {fileID: 0}
