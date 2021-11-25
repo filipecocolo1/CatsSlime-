@@ -6,18 +6,22 @@ public class Botao3 : MonoBehaviour
 {
     public GameObject porta;
     public GameObject player;
+    public Animator animatorB;
     // Use this for initialization
     void Start()
     {
         porta.gameObject.SetActive(false);
     }
+    void Update()
+    {
+        animatorB = GetComponent<Animator>();
+    }
 
-    // Update is called once per frame
     void OnTriggerEnter2D(Collider2D other)
     {
         if (player != null && other.gameObject.tag == player.gameObject.tag)
         { //coloca a tag player1 no player1
-
+            animatorB.SetBool("EmcimaBotaoAzul", true);
             if (porta != null)
             {
 
@@ -31,7 +35,7 @@ public class Botao3 : MonoBehaviour
 
         if (player != null && other.gameObject.tag == player.gameObject.tag)
         { //coloca a tag player1 no player1
-
+            animatorB.SetBool("EmcimaBotaoAzul", false);
             if (porta != null)
             {
 

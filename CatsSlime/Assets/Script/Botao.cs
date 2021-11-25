@@ -30,6 +30,8 @@ public class Botao: MonoBehaviour {
     
         if (player!= null && other.gameObject.tag == player.gameObject.tag){ //coloca a tag player1 no player1
             animatorB.SetBool("emCimabotao", true);
+            animatorB.SetBool("EmcimaBotaoAzul", true);
+
 
             if (porta != null) {
 
@@ -64,6 +66,7 @@ public class Botao: MonoBehaviour {
         if (player!= null && other.gameObject.tag == player.gameObject.tag){ //coloca a tag player1 no player1
 
             animatorB.SetBool("emCimabotao", false);
+            animatorB.SetBool("EmcimaBotaoAzul", false);
             if (porta != null) {
 
 				porta.gameObject.SetActive (true);
